@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Mkdocs - bool wiki</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "BoolBang Wiki \uae30\ub2a5 \ub370\ubaa8", url: "#_top", children: [
+              {title: "\uc778\ub77c\uc778 \uac15\uc870", url: "#_1" },
+              {title: "\uacbd\uace0 \ubc15\uc2a4 (Admonition)", url: "#admonition" },
+              {title: "\ud655\uc7a5 \uae30\ub2a5 \uc124\uc815 \uc608\uc2dc", url: "#_2" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script>
+      <script src="../search/main.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav">
+      <a href="../emoji/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../emoji/" class="btn btn-xs btn-link">
+        uni emoji
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="boolbang-wiki">BoolBang Wiki 기능 데모<a class="headerlink" href="#boolbang-wiki" title="Permanent link">#</a></h1>
+<p>이 문서는 MkDocs + Windmill 테마에서 실제로 작동하는 기능들을 테스트하고<br />
+한눈에 보여주는 데모 문서입니다.</p>
+<hr />
+<h2 id="_1">인라인 강조<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<ul>
+<li><code>코드</code>처럼 표현</li>
+<li><mark>형광펜 강조</mark></li>
+<li><del>취소선</del></li>
+<li><strong>굵게</strong></li>
+<li><em>기울임</em></li>
+</ul>
+<hr />
+<h2 id="admonition">경고 박스 (Admonition)<a class="headerlink" href="#admonition" title="Permanent link">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>이건 참고 노트입니다.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>이건 경고 메시지입니다.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>이건 성공 메시지입니다.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>이건 위험/에러 경고입니다.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>이건 정보입니다.</p>
+</div>
+<hr />
+<h2 id="_2">확장 기능 설정 예시<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<pre class="highlight"><code class="language-yaml">markdown_extensions:
+  - toc:
+      permalink: '#'
+  - nl2br
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - fenced_code
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.mark
+  - pymdownx.emoji</code></pre>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav">
+      <a href="../emoji/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../emoji/" class="btn btn-xs btn-link">
+        uni emoji
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="None">Windmill Dark</a> theme by None (noraj).</p>
+</footer>
+
+</body>
+</html>
