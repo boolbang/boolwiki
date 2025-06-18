@@ -1,0 +1,94 @@
+body,
+.md-container,
+.md-content,
+.md-main,
+.md-main__inner,
+.md-typeset {
+  background-color: #000000 !important;
+}
+/* 본문 텍스트 전체 색상 */
+.md-typeset {
+  color: #d6d6d6;아주 밝은 회색 */
+}
+
+
+/* 제목(h1~h6) 색상 */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: #00FF00;
+  text-shadow: 0 0 4px #00FF00;
+}
+
+
+/* 상단바 배경색 */
+.md-header {
+  background-color: #1a1a1a !important;   /* 어두운 회색 */
+}
+
+/* 상단바 제목 텍스트 */
+.md-header__title {
+  color: #ffffff !important;              /* 노란색 */
+}
+
+/* 검색창 배경색 (선택) */
+.md-search__form {
+  background-color: #4d4d4d !important;
+}
+
+/* 전체 메뉴 기본 색상 */
+.md-nav__link {
+  color: #bbbbbb !important; /* 흐린 회색 */
+}
+
+/* 현재 선택된 메뉴 항목 (활성 페이지) */
+.md-nav__item--active > .md-nav__link {
+  color: #00FF00 !important;          /* DOS 스타일 앰버 오렌지 */
+  font-weight: bold;
+  text-shadow: 0 0 4px  #00FF00;
+}
+
+/* 마우스 올렸을 때 */
+.md-nav__link:hover {
+  color: #ff0000 !important; 
+  text-shadow: 0 0 4px  #ff0000;        /* 조금 더 밝은 오렌지 */
+  background-color: #111111 !important;
+}
+
+/* 사이드바 전체 배경 */
+.md-sidebar,
+.md-sidebar__scrollwrap {
+  background-color: #000000 !important; /* 완전 블랙으로 */
+}
+
+/* 사이드바 글자 색 */
+.md-nav__link {
+  color: #ffffff !important;  /* 밝은 회색 */
+}
+
+/* 현재 활성 메뉴 강조 색상 */
+.md-nav__item--active > .md-nav__link {
+  color: #00FF00 !important;       /* DOS 형광 녹색 */
+  text-shadow: 0 0 4px #00FF00;
+  font-weight: bold;
+}
+/* 사이드바 카테고리 제목 영역 (예: '비평글') */
+.md-nav__title {
+  color: #000000 !important; /* 흐린 회색 or 바꿀 색상 */
+  background-color: #949494 !important; /* 배경을 어둡게 */
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+}
+
+
+/* 본문 구분선 줄(hr) 스타일 명확히 */
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid #00FF00; /* 기본 회색 */
+  margin: 2rem 0;
+  opacity: 1; /* 완전히 보이게 */
+}
+
