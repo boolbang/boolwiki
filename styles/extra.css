@@ -20,7 +20,7 @@ body,
 .md-typeset h5,
 .md-typeset h6 {
   color: #00FF00;
-  text-shadow: 0 0 4px #00FF00;
+  /* text-shadow: 0 0 4px #00FF00; */
 }
 
 
@@ -48,13 +48,13 @@ body,
 .md-nav__item--active > .md-nav__link {
   color: #00FF00 !important;          /* DOS 스타일 앰버 오렌지 */
   font-weight: bold;
-  text-shadow: 0 0 4px  #00FF00;
+  /* text-shadow: 0 0 4px  #00FF00; */
 }
 
 /* 마우스 올렸을 때 */
 .md-nav__link:hover {
-  color: #fffb00 !important; 
-  text-shadow: 0 0 4px  #fffb00;        /* 조금 더 밝은 오렌지 */
+  color: #ff0000 !important; 
+  /* text-shadow: 0 0 4px  #fffb00;        조금 더 밝은 오렌지 */
   background-color: #111111 !important;
 }
 
@@ -69,16 +69,10 @@ body,
   color: #ffffff !important;  /* 밝은 회색 */
 }
 
-/* 현재 활성 메뉴 강조 색상 */
-.md-nav__item--active > .md-nav__link {
-  color: #00FF00 !important;       /* DOS 형광 녹색 */
-  text-shadow: 0 0 4px #00FF00;
-  font-weight: bold;
-}
 /* 사이드바 카테고리 제목 영역 (예: '비평글') */
 .md-nav__title {
   color: #000000 !important; /* 흐린 회색 or 바꿀 색상 */
-  background-color: #949494 !important; /* 배경을 어둡게 */
+  background-color: #ff0000 !important; /* 배경을 어둡게 */
   font-weight: bold;
   padding: 0.7rem 1rem;
 }
