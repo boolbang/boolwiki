@@ -31,7 +31,7 @@ body,
 
 /* 상단바 제목 텍스트 */
 .md-header__title {
-  color: #ffffff !important;              /* 노란색 */
+  color: #ff8800 !important;              /* 노란색 */
 }
 
 /* 검색창 배경색 (선택) */
@@ -73,6 +73,7 @@ body,
 .md-nav__title {
   color: #000000 !important; /* 흐린 회색 or 바꿀 색상 */
   background-color: #ff0000 !important; /* 배경을 어둡게 */
+  box-shadow: none
   font-weight: bold;
   padding: 0.7rem 1rem;
 }
@@ -94,4 +95,16 @@ body,
   font-family: 'Courier New', monospace;
   border-radius: 0px;
   padding: 2px 5px;
+}
+
+mark {
+  background-color: #ff209b !important; /* 원하는 색상으로 변경 */
+  color: black !important;              /* 텍스트 색상 (필요시 조정) */
+  padding: 0 0.2em;
+  border-radius: 0px;
+}
+
+.md-typeset a {
+  color: #ff8800 !important;  /* 원하는 링크 색상 */
+  /* text-decoration: underline; */
 }
